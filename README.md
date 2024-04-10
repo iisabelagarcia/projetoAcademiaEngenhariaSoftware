@@ -106,12 +106,116 @@ Definiremos um termo de contrato onde só poderão gerar os convites fora de hor
 
 **RN05:** “As senhas utilizadas no sistema devem conter letras maiúsculas, minúsculas, números e caracteres especiais.”
 
-**RN06: “**A utilização da academia só fica disponível após aceitar os termos”
+**RN06:** “A utilização da academia só fica disponível após aceitar os termos”
 
 **RN07:** “Só é atualizado o débito após realizado o pagamento do boleto”
 
 **RN08:** “Apenas serão aceitos pagamentos feitos por boleto”
 
-**RN09: “**As movimentações de entrada e saída da academia devem ser registradas”
+**RN09:** “As movimentações de entrada e saída da academia devem ser registradas”
 
 **RN10:** “O aluno pode retirar até 5 convites por mês”
+
+<br>
+
+### Casos de Uso
+
+- **ACESSAR  AULA** - realizado pelo aluno
+- **ACESSAR LOTAÇÃO** - realizado pelo aluno
+- **MANTER TREINO**
+
+    **Caso Típico**
+    
+    1- O recepcionista insere o treino proposto pelo personal<br>
+    2- O aluno acessa treino
+    
+    **Caso Alternativo**
+
+    1- Não foi realizado nenhum <br>
+    2- finaliza ação<br>
+    3- a) O aluno não consegue acessar o treino <br>
+        b) O número da recepcção da academia estará visível para solucionar o problema <br>
+        c) finaliza ação 
+        
+- **MANTER O CONTRATO**
+    
+    **Caso típico**
+    
+    1- O aluno lê o contrato <br>
+    2- O aluno aceita os termos de condição <br>
+    3- O recepcionista checa se foi aceito os termos
+    
+    **Caso alternativo**
+    
+    1- a) O aluno não leu o contrato <br>
+       b) Passo permanece estagnado até ser lido <br>
+    2- a) O aluno não aceita os termos de condição <br>
+       b) Passo permanece estagnado até ser aceito
+        
+- **MANTER O FINANCEIRO**
+    
+    **Caso típico**
+    
+    1- O aluno acessa as mensalidades <br>
+    2- Vizualiza as pagas e as pendentes <br>
+    3- Seleciona qual deseja pagar <br>
+    4- Gera um boleto <br>
+    5- Paga boleto <br>
+    6- Mensalidade dada como paga
+    
+    **Caso alternativo**
+    
+    1- a) O aluno não deseja pagar nenhuma mensalidade <br>
+       b) encerra ação <br>
+    2- a) O aluno consta como mês atual pendente <br>
+       b) O sistema automaticamente seleciona o mês atual <br>
+       c) Volta para passo 4
+    
+- **FAZER MATRÍCULA**
+    
+    **Caso típico**
+    
+    1- O aluno dá seus dados ao recepcionista <br>
+    2- É necessário acessar o contrato e confirmar termos <br>
+    3- O sistema valida a matrícula
+    
+    **Caso alternativo**
+    
+    1- a) O aluno não realiza a matrícula, encerra ação  <br>
+      b) O aluno já possui cadastro, encerra ação
+        
+
+- **ACESSAR CONVITES**
+    
+    **Caso típico** 
+    
+    1- O aluno pode tirar convites <br>
+    2- O site pede nome e CPF do convidado <br>
+    3- O site valida convite <br>
+    4- O site gera QRCODE 
+    
+    **Caso alternativo**
+    
+    1- a) A academia está em superlotação  <br>
+        b) Encerra ação  <br>
+    2- a) O site não valida as informações  <br>
+        b) Volta para o passo 2
+    
+- **FAZER LOGIN**
+    
+    **Caso típico**
+    
+    1- O aluno insere matrícula e senha <br>
+    2- O aluno realiza o login no site <br>
+    3- O site valida o login
+    
+    **Caso alternativo**
+    
+    1- a) O login/senha está incorreto <br> 
+        b) Realizar o login novamente <br>
+        c) se der certo, vai parar o passo 2 <br>
+        d) se der errado, entre na aba ‘esqueci minha senha’ <br>
+        e) enviar um e-mail para redefiní-la <br>
+        f) ao realizar a redefinição, volta para o passo 2
+        
+
