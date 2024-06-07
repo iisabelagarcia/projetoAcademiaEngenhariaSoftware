@@ -218,10 +218,10 @@ Definiremos um termo de contrato onde só poderão gerar os convites fora de hor
         e) enviar um e-mail para redefiní-la <br>
         f) ao realizar a redefinição, volta para o passo 2
         
-![Casos de Uso](https://github.com/iisabelagarcia/images/blob/main/casosUsoAcademia.png)
-![Diagrama de Classes](https://github.com/iisabelagarcia/images/blob/main/diagramaClasseAcademia.png)
-![Diagrama de Atividade 1](https://github.com/iisabelagarcia/images/blob/main/diagramaAtividade1Academia.png)
-![Diagrama de Atividade 2](https://github.com/iisabelagarcia/images/blob/main/diagramaAtividade2Academia.png)
-![Diagrama de Sequência 1](https://github.com/iisabelagarcia/images/blob/main/diagramaSequencia1Academia.png)
-![Diagrama de Sequência 2](https://github.com/iisabelagarcia/images/blob/main/diagramaSequencia2Academia.png)
-![Diagrama de Sequência 3](https://github.com/iisabelagarcia/images/blob/main/diagramaSequencia3Academia.jpeg)
+![Casos de Uso](https://github.com/iisabelagarcia/projetoAcademiaEngenhariaSoftware/blob/main/casosUsoAcademia.png)
+![Diagrama de Classes](https://github.com/iisabelagarcia/projetoAcademiaEngenhariaSoftware/blob/main/diagramaClasseAcademia.png)
+![Diagrama de Atividade 1](https://github.com/iisabelagarcia/projetoAcademiaEngenhariaSoftware/blob/main/diagramaAtividade1Academia.png)
+![Diagrama de Atividade 2](https://github.com/iisabelagarcia/projetoAcademiaEngenhariaSoftware/blob/main/diagramaAtividade2Academia.png)
+![Diagrama de Sequência 1](https://github.com/iisabelagarcia/projetoAcademiaEngenhariaSoftware/blob/main/diagramaSequencia1Academia.png)
+![Diagrama de Sequência 2](https://github.com/iisabelagarcia/projetoAcademiaEngenhariaSoftware/blob/main/diagramaSequencia2Academia.png)
+![Diagrama de Sequência 3](https://github.com/iisabelagarcia/projetoAcademiaEngenhariaSoftware/blob/main/diagramaSequencia3Academia.jpeg)
